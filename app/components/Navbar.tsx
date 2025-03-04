@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { FaYoutube, FaTwitter, FaGithub, FaLaptop } from "react-icons/fa";
-import { FaX, FaXTwitter } from "react-icons/fa6";
+import { FaBluesky, FaX, FaXTwitter } from "react-icons/fa6";
 
 export default function Navbar() {
   return (
@@ -13,8 +13,8 @@ export default function Navbar() {
           <Link className="text-white/90 hover:text-white" href="https://www.youtube.com/@chrishiggi">
             <FaYoutube />
           </Link>
-          <Link className="text-white/90 hover:text-white" href="http://www.chrishiggi.com">
-            <FaLaptop />
+          <Link className="text-white/90 hover:text-white" href="https://bsky.app/profile/chrishiggi.bsky.social">
+            <FaBluesky />
           </Link>
           <Link className="text-white/90 hover:text-white" href="https://github.com/chrishiggi">
             <FaGithub />
